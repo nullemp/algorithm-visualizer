@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T05:32:40.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="b9bGw8NY5zFk6xh5wRui" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T05:36:55.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ge_9f1NyZdjqmXny00NS" version="20.0.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2522" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -492,6 +492,12 @@
               <mxPoint x="669" y="480" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1VRgYn6vvzzQ8MHSF9C3-151" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="890" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1VRgYn6vvzzQ8MHSF9C3-152" value="外键表OID依赖&lt;br&gt;外键列OID依赖" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
