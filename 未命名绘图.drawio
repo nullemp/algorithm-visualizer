@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T02:54:14.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tjnd7IZAu21MOYZOU7Jp" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T03:15:54.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="I0EAKxTgpCPRaoW9Jdnd" version="20.2.2" type="github">
   <diagram id="fz8EWS7wEUq9dCvHIILW" name="第 1 页">
     <mxGraphModel dx="981" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,8 +79,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1120" y="1580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1320" y="640" />
-              <mxPoint x="1320" y="1540" />
+              <mxPoint x="580" y="640" />
+              <mxPoint x="580" y="1540" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -90,20 +90,14 @@
         <mxCell id="WsQYmKF27YAWkva7y0JM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-33" target="WsQYmKF27YAWkva7y0JM-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-33" target="WsQYmKF27YAWkva7y0JM-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WsQYmKF27YAWkva7y0JM-33" value="bool ret = connectOptions1(conn, conninfo)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610.63" y="760" width="248.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WsQYmKF27YAWkva7y0JM-40" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-35" target="WsQYmKF27YAWkva7y0JM-39">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WsQYmKF27YAWkva7y0JM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="800" y="1550" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1260" y="880" />
-              <mxPoint x="1260" y="1550" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="WsQYmKF27YAWkva7y0JM-35" value="ret == TRUE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="695.01" y="840" width="80" height="80" as="geometry" />
@@ -133,8 +127,20 @@
         <mxCell id="WsQYmKF27YAWkva7y0JM-45" value="bool ret = connectDBStart(conn)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="617.51" y="1250" width="235" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WsQYmKF27YAWkva7y0JM-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-50" target="WsQYmKF27YAWkva7y0JM-53">
-          <mxGeometry relative="1" as="geometry" />
+        <object label="" d="" id="WsQYmKF27YAWkva7y0JM-55">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-50" target="WsQYmKF27YAWkva7y0JM-53">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="735" y="1470" />
+                <mxPoint x="735" y="1470" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="1415.0689655172414" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WsQYmKF27YAWkva7y0JM-50" value="ret == TURE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="642.51" y="1370" width="185" height="90" as="geometry" />
@@ -142,11 +148,14 @@
         <mxCell id="WsQYmKF27YAWkva7y0JM-53" value="return conn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WsQYmKF27YAWkva7y0JM-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1060" y="870" as="sourcePoint" />
-            <mxPoint x="1110" y="820" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.815;entryY=-0.065;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-65" target="WsQYmKF27YAWkva7y0JM-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-65" value="conn-&amp;gt;status = CONNECTION_BAD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-68" value="connectOptions1(PGconn *conn, const char *conninfo)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="767.5" width="330" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
