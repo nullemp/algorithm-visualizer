@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T03:15:54.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="I0EAKxTgpCPRaoW9Jdnd" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-29T03:20:29.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="V-sN83WpyUh5uEb-mf5P" version="20.2.2" type="github">
   <diagram id="fz8EWS7wEUq9dCvHIILW" name="第 1 页">
     <mxGraphModel dx="981" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,8 +154,26 @@
         <mxCell id="WsQYmKF27YAWkva7y0JM-65" value="conn-&amp;gt;status = CONNECTION_BAD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="1385" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-68" target="WsQYmKF27YAWkva7y0JM-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WsQYmKF27YAWkva7y0JM-68" value="connectOptions1(PGconn *conn, const char *conninfo)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="767.5" width="330" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-71" target="WsQYmKF27YAWkva7y0JM-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-71" value="connOptions = parse_connection_string(conninfo, &amp;amp;conn-&amp;gt;errorMessage, true);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="850" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WsQYmKF27YAWkva7y0JM-74" target="WsQYmKF27YAWkva7y0JM-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-74" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1187.5" y="910" width="275" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WsQYmKF27YAWkva7y0JM-76" value="fillPGconn(conn, connOptions)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1182.5" y="1040" width="285" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
